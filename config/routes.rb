@@ -1,4 +1,16 @@
 PcsFinalExamRails::Application.routes.draw do
+  get "static_pages/about"
+
+  get "static_pages/contact"
+
+  get "users/index"
+
+  get "users/show"
+
+  get "user/show"
+
+  get "user/index"
+
   resources :cards
 
 
